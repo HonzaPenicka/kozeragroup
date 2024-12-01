@@ -109,7 +109,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 col-span-2 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 col-span-2 gap-4 font-medium">
               <div className="p-4 lg:py-8 lg:px-20 bg-green-400 rounded-xl flex justify-center">
                 Leopard
               </div>
