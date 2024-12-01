@@ -14,7 +14,7 @@ export default function Home() {
       </header>
 
       <main className="flex flex-col gap-2 md:gap-8 lg:gap-16">
-        <div className="aspect-auto md:aspect-video bg-pink-400 items-center grid p-4 md:p-8 lg:p-16 gap-8 py-16 rounded-xl">
+        <div className="aspect-auto md:aspect-auto bg-pink-400 items-center grid p-4 md:p-8 lg:p-16 gap-8 lg:gap-16 py-16 rounded-xl justify-between">
           <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold">
             Own Your Luxury Dream Estate
           </h1>
@@ -30,7 +30,7 @@ export default function Home() {
             </div>
 
             <div className="hidden lg:grid">
-              <XIcon width={40} height={40} />
+              <XIcon width={60} height={60} />
             </div>
 
             <div className="grid lg:hidden">
@@ -38,7 +38,7 @@ export default function Home() {
             </div>
 
             <div className="hidden lg:grid">
-              <InstagramIcon width={40} height={40} />
+              <InstagramIcon width={60} height={60} />
             </div>
 
             <div className="grid lg:hidden">
@@ -46,7 +46,7 @@ export default function Home() {
             </div>
 
             <div className="hidden lg:grid">
-              <FacebookIcon width={40} height={40} />
+              <FacebookIcon width={60} height={60} />
             </div>
           </div>
 
