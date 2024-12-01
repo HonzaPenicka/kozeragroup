@@ -1,11 +1,16 @@
 import { FunctionComponent } from "react";
 
-export const FacebookIcon: FunctionComponent = () => {
+interface Props {
+  height: number;
+  width: number;
+}
+
+export const FacebookIcon: FunctionComponent<Props> = ({ width, height }) => {
   return (
     <svg
       fill="#000000"
-      width="25"
-      height="25"
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >

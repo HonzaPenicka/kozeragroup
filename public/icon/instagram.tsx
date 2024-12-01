@@ -1,10 +1,15 @@
 import { FunctionComponent } from "react";
 
-export const InstagramIcon: FunctionComponent = () => {
+interface Props {
+  height: number;
+  width: number;
+}
+
+export const InstagramIcon: FunctionComponent<Props> = ({ width, height }) => {
   return (
     <svg
-      width="25"
-      height="25"
+      width={width}
+      height={height}
       viewBox="0 0 192 192"
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
