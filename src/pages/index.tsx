@@ -2,6 +2,9 @@ import { ArrowRightIcon } from "../../public/icon/arrow-right";
 import { XIcon } from "../../public/icon/x";
 import { InstagramIcon } from "../../public/icon/instagram";
 import { FacebookIcon } from "../../public/icon/facebook";
+import { EmailIcon } from "../../public/icon/email";
+import { PhoneIcon } from "../../public/icon/phone";
+import { AddressIcon } from "../../public/icon/address";
 
 export default function Home() {
   return (
@@ -11,7 +14,7 @@ export default function Home() {
       </header>
 
       <main className="flex flex-col gap-2 md:gap-8 lg:gap-16">
-        <div className="aspect-auto md:aspect-auto bg-pink-400 items-center grid p-4 md:p-8 lg:p-16 gap-8 lg:gap-16 py-16 rounded-xl justify-between">
+        <div className="aspect-auto md:aspect-auto bg-white border-2 items-center grid p-4 md:p-8 lg:p-16 gap-8 lg:gap-16 py-16 rounded-xl justify-between">
           <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold">
             Own Your Luxury Dream Estate
           </h1>
@@ -21,7 +24,7 @@ export default function Home() {
             mojí obří kundu? Zešvihám ti prdel ty píčo! Natrhnu ti kundu děfko!
           </h2>
 
-          <div className="flex bg-yellow-600 gap-4 lg:gap-8">
+          <div className="flex gap-4 lg:gap-8">
             <button className="grid lg:hidden hover:scale-110 duration-300">
               <XIcon width={25} height={25} />
             </button>
@@ -63,7 +66,7 @@ export default function Home() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-2 md:gap-8 lg:gap-16 pb-4">
-          <div className="apect-video bg-blue-500 py-8 px-4 lg:px-16 lg:py-16 rounded-xl grid gap-2 lg:gap-4">
+          <div className="apect-video bg-white border-2 py-8 px-4 lg:px-16 lg:py-16 rounded-xl grid gap-2 lg:gap-4">
             <div className="text-2xl font-semibold">1200+</div>
 
             <div className="text-sm">
@@ -72,7 +75,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="apect-video bg-blue-500 py-8 px-4 lg:px-16 lg:py-16 rounded-xl grid gap-2 lg:gap-4">
+          <div className="apect-video bg-white border-2 py-8 px-4 lg:px-16 lg:py-16 rounded-xl grid gap-2 lg:gap-4">
             <div className="text-2xl font-semibold">8M+</div>
 
             <div className="text-sm">
@@ -82,7 +85,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="apect-video bg-blue-500 py-8 px-4 lg:px-16 lg:py-16 rounded-xl grid gap-2 lg:gap-4">
+          <div className="apect-video bg-white border-2 py-8 px-4 lg:px-16 lg:py-16 rounded-xl grid gap-2 lg:gap-4">
             <div className="text-2xl font-semibold">9+</div>
 
             <div className="text-sm">
@@ -93,7 +96,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid py-4 bg-slate-300 rounded-xl">
+        <div className="grid py-4 bg-slate-200 rounded-xl">
           <div className="flex flex-col md:flex-row md:justify-between gap-4 p-4 md:p-8 lg:p-16">
             <div className="flex flex-col gap-4 lg:gap-8 md:w-2/5">
               <div className="text-2xl lg:text-4xl font-semibold">
@@ -107,27 +110,30 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 col-span-2 gap-4 font-medium">
-              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-green-400 rounded-xl flex justify-center">
+              <a
+                href="https://www.bubblewaffleharrachov.cz"
+                className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center"
+              >
+                Waffle
+              </a>
+
+              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center">
                 Leopard
               </div>
 
-              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-red-600 rounded-xl flex justify-center">
+              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center">
                 Leopard
               </div>
 
-              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-orange-500 rounded-xl flex justify-center">
+              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center">
                 Leopard
               </div>
 
-              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-green-400 rounded-xl flex justify-center">
+              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center">
                 Leopard
               </div>
 
-              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-red-600 rounded-xl flex justify-center">
-                Leopard
-              </div>
-
-              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-orange-500 rounded-xl flex justify-center">
+              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center">
                 Leopard
               </div>
             </div>
@@ -138,11 +144,11 @@ export default function Home() {
       <footer className="px-4 md:px-8 pt-8 lg:pt-16 grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
         <button className="text-left grid gap-2">
           <div className="grid lg:hidden">
-            <XIcon width={25} height={25} />
+            <EmailIcon width={25} height={25} />
           </div>
 
           <div className="hidden lg:grid">
-            <XIcon width={40} height={40} />
+            <EmailIcon width={40} height={40} />
           </div>
 
           <div className="font-semibold">E-mailová adresa</div>
@@ -152,11 +158,11 @@ export default function Home() {
 
         <button className="text-left grid gap-2">
           <div className="grid lg:hidden">
-            <XIcon width={25} height={25} />
+            <PhoneIcon width={25} height={25} />
           </div>
 
           <div className="hidden lg:grid">
-            <XIcon width={40} height={40} />
+            <PhoneIcon width={40} height={40} />
           </div>
 
           <div className="font-semibold">Telefonní číslo</div>
@@ -166,11 +172,11 @@ export default function Home() {
 
         <button className="text-left grid gap-2">
           <div className="grid lg:hidden">
-            <XIcon width={25} height={25} />
+            <AddressIcon width={25} height={25} />
           </div>
 
           <div className="hidden lg:grid">
-            <XIcon width={40} height={40} />
+            <AddressIcon width={40} height={40} />
           </div>
           <div className="font-semibold">Adresa</div>
 
