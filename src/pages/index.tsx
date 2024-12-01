@@ -14,7 +14,7 @@ export default function Home() {
       </header>
 
       <main className="flex flex-col gap-2 md:gap-8 lg:gap-16">
-        <div className="aspect-square md:aspect-video bg-pink-400 items-center grid p-4 md:p-8 lg:p-16 gap-8 py-16 rounded-xl">
+        <div className="aspect-auto md:aspect-video bg-pink-400 items-center grid p-4 md:p-8 lg:p-16 gap-8 py-16 rounded-xl">
           <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold">
             Own Your Luxury Dream Estate
           </h1>
