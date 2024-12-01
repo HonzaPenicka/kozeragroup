@@ -138,7 +138,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="px-4 md:px-8 pt-8 grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+      <footer className="px-4 md:px-8 pt-8 lg:pt-16 grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
         <div className="text-left grid gap-2">
           <div className="grid lg:hidden">
             <XIcon width={25} height={25} />
