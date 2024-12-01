@@ -1,6 +1,3 @@
-import Image from "next/image";
-import localFont from "next/font/local";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { ArrowRightIcon } from "../../public/icon/arrow-right";
 import { XIcon } from "../../public/icon/x";
 import { InstagramIcon } from "../../public/icon/instagram";
@@ -30,7 +27,7 @@ export default function Home() {
             </div>
 
             <div className="hidden lg:grid">
-              <XIcon width={60} height={60} />
+              <XIcon width={40} height={40} />
             </div>
 
             <div className="grid lg:hidden">
@@ -38,7 +35,7 @@ export default function Home() {
             </div>
 
             <div className="hidden lg:grid">
-              <InstagramIcon width={60} height={60} />
+              <InstagramIcon width={40} height={40} />
             </div>
 
             <div className="grid lg:hidden">
@@ -46,7 +43,7 @@ export default function Home() {
             </div>
 
             <div className="hidden lg:grid">
-              <FacebookIcon width={60} height={60} />
+              <FacebookIcon width={40} height={40} />
             </div>
           </div>
 
