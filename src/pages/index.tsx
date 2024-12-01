@@ -22,33 +22,33 @@ export default function Home() {
           </h2>
 
           <div className="flex bg-yellow-600 gap-4 lg:gap-8">
-            <div className="grid lg:hidden">
+            <button className="grid lg:hidden hover:scale-110 duration-300">
               <XIcon width={25} height={25} />
-            </div>
+            </button>
 
-            <div className="hidden lg:grid">
+            <button className="hidden lg:grid hover:scale-110 duration-300">
               <XIcon width={40} height={40} />
-            </div>
+            </button>
 
-            <div className="grid lg:hidden">
+            <button className="grid lg:hidden hover:scale-110 duration-300">
               <InstagramIcon width={25} height={25} />
-            </div>
+            </button>
 
-            <div className="hidden lg:grid">
+            <button className="hidden lg:grid hover:scale-110 duration-300">
               <InstagramIcon width={40} height={40} />
-            </div>
+            </button>
 
-            <div className="grid lg:hidden">
+            <button className="grid lg:hidden hover:scale-110 duration-300">
               <FacebookIcon width={25} height={25} />
-            </div>
+            </button>
 
-            <div className="hidden lg:grid">
+            <button className="hidden lg:grid hover:scale-110 duration-300">
               <FacebookIcon width={40} height={40} />
-            </div>
+            </button>
           </div>
 
           <div>
-            <button className="flex items-center gap-2 lg:gap-4 bg-green-400 py-2 lg:py-8 px-4 lg:px-16 rounded-xl font-semibold text-md">
+            <button className="flex items-center gap-2 lg:gap-4 bg-green-400 py-2 lg:py-8 px-4 lg:px-16 rounded-xl font-semibold text-md hover:scale-110 duration-300">
               <div className="lg:text-xl">Learn More</div>
 
               <div className="grid lg:hidden">
@@ -107,27 +107,27 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 col-span-2 gap-4 font-medium">
-              <div className="p-4 lg:py-8 lg:px-20 bg-green-400 rounded-xl flex justify-center">
+              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-green-400 rounded-xl flex justify-center">
                 Leopard
               </div>
 
-              <div className="p-4 lg:py-8 lg:px-20 bg-red-600 rounded-xl flex justify-center">
+              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-red-600 rounded-xl flex justify-center">
                 Leopard
               </div>
 
-              <div className="p-4 lg:py-8 lg:px-20 bg-orange-500 rounded-xl flex justify-center">
+              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-orange-500 rounded-xl flex justify-center">
                 Leopard
               </div>
 
-              <div className="p-4 lg:py-8 lg:px-20 bg-green-400 rounded-xl flex justify-center">
+              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-green-400 rounded-xl flex justify-center">
                 Leopard
               </div>
 
-              <div className="p-4 lg:py-8 lg:px-20 bg-red-600 rounded-xl flex justify-center">
+              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-red-600 rounded-xl flex justify-center">
                 Leopard
               </div>
 
-              <div className="p-4 lg:py-8 lg:px-20 bg-orange-500 rounded-xl flex justify-center">
+              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-orange-500 rounded-xl flex justify-center">
                 Leopard
               </div>
             </div>
@@ -136,7 +136,7 @@ export default function Home() {
       </main>
 
       <footer className="px-4 md:px-8 pt-8 lg:pt-16 grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
-        <div className="text-left grid gap-2">
+        <button className="text-left grid gap-2">
           <div className="grid lg:hidden">
             <XIcon width={25} height={25} />
           </div>
@@ -148,9 +148,9 @@ export default function Home() {
           <div className="font-semibold">E-mailová adresa</div>
 
           <div className="text-gray-500">kozera@group.cz</div>
-        </div>
+        </button>
 
-        <div className="text-left grid gap-2">
+        <button className="text-left grid gap-2">
           <div className="grid lg:hidden">
             <XIcon width={25} height={25} />
           </div>
@@ -162,9 +162,9 @@ export default function Home() {
           <div className="font-semibold">Telefonní číslo</div>
 
           <div className="text-gray-500">+420 608 666 200</div>
-        </div>
+        </button>
 
-        <div className="text-left grid gap-2">
+        <button className="text-left grid gap-2">
           <div className="grid lg:hidden">
             <XIcon width={25} height={25} />
           </div>
@@ -175,7 +175,7 @@ export default function Home() {
           <div className="font-semibold">Adresa</div>
 
           <div className="text-gray-500">U Omrdaný Kundy 01 MRD, Ceckovice</div>
-        </div>
+        </button>
       </footer>
     </div>
   );
