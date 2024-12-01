@@ -14,7 +14,7 @@ export default function Home() {
       </header>
 
       <main className="flex flex-col gap-2 md:gap-8 lg:gap-16">
-        <div className="aspect-auto md:aspect-auto bg-white border-2 items-center grid p-4 md:p-8 lg:p-16 gap-8 lg:gap-16 py-16 rounded-xl justify-between">
+        <div className="aspect-auto md:aspect-auto text-black bg-[url('/hero/image_mobile.png')] md:bg-[url('/hero/image.png')] bg-no-repeat bg-cover border-2 items-center grid p-4 md:p-8 lg:p-16 gap-8 lg:gap-16 py-16 rounded-xl justify-between">
           <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold">
             Own Your Luxury Dream Estate
           </h1>
@@ -25,33 +25,57 @@ export default function Home() {
           </h2>
 
           <div className="flex gap-4 lg:gap-8">
-            <button className="grid lg:hidden hover:scale-110 duration-300">
+            <a
+              href="http://www.x.com/kozera-group"
+              className="grid lg:hidden hover:scale-110 duration-300"
+              target="_blank"
+            >
               <XIcon width={25} height={25} />
-            </button>
+            </a>
 
-            <button className="hidden lg:grid hover:scale-110 duration-300">
+            <a
+              href="http://www.x.com/kozera-group"
+              className="hidden lg:grid hover:scale-110 duration-300"
+              target="_blank"
+            >
               <XIcon width={40} height={40} />
-            </button>
+            </a>
 
-            <button className="grid lg:hidden hover:scale-110 duration-300">
+            <a
+              href="http://www.instagram.com/kozera-group"
+              className="grid lg:hidden hover:scale-110 duration-300"
+              target="_blank"
+            >
               <InstagramIcon width={25} height={25} />
-            </button>
+            </a>
 
-            <button className="hidden lg:grid hover:scale-110 duration-300">
+            <a
+              href="http://www.instagram.com/kozera-group"
+              className="hidden lg:grid hover:scale-110 duration-300"
+              target="_blank"
+            >
               <InstagramIcon width={40} height={40} />
-            </button>
+            </a>
 
-            <button className="grid lg:hidden hover:scale-110 duration-300">
+            <a
+              href="http://www.facebook.com/kozera-group"
+              className="grid lg:hidden hover:scale-110 duration-300"
+              target="_blank"
+            >
               <FacebookIcon width={25} height={25} />
-            </button>
+            </a>
 
-            <button className="hidden lg:grid hover:scale-110 duration-300">
+            <a
+              href="http://www.facebook.com/kozera-group"
+              className="hidden lg:grid hover:scale-110 duration-300"
+              target="_blank"
+            >
               <FacebookIcon width={40} height={40} />
-            </button>
+            </a>
           </div>
 
           <div>
-            <button className="flex items-center gap-2 lg:gap-4 bg-green-400 py-2 lg:py-8 px-4 lg:px-16 rounded-xl font-semibold text-md hover:scale-110 duration-300">
+            <button className="flex items-center text-black gap-2 lg:gap-4 bg-white py-2 lg:py-8 px-4 lg:px-16 rounded-xl font-semibold text-md hover:scale-110 duration-300">
               <div className="lg:text-xl">Learn More</div>
 
               <div className="grid lg:hidden">
@@ -65,8 +89,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-2 md:gap-8 lg:gap-16 pb-4">
-          <div className="apect-video bg-white border-2 py-8 px-4 lg:px-16 lg:py-16 rounded-xl grid gap-2 lg:gap-4">
+        <div className="grid md:grid-cols-3 gap-2 md:gap-8 lg:gap-16 pb-4 text-black font-semibold">
+          <div className="apect-video bg-[url('/variant/image_1.png')] bg-no-repeat bg-cover border-2 py-8 px-4 lg:px-16 lg:py-16 rounded-xl grid gap-2 lg:gap-4">
             <div className="text-2xl font-semibold">1200+</div>
 
             <div className="text-sm">
@@ -75,7 +99,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="apect-video bg-white border-2 py-8 px-4 lg:px-16 lg:py-16 rounded-xl grid gap-2 lg:gap-4">
+          <div className="apect-video bg-[url('/variant/image_2.png')] bg-no-repeat bg-cover border-2 py-8 px-4 lg:px-16 lg:py-16 rounded-xl grid gap-2 lg:gap-4">
             <div className="text-2xl font-semibold">8M+</div>
 
             <div className="text-sm">
@@ -85,7 +109,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="apect-video bg-white border-2 py-8 px-4 lg:px-16 lg:py-16 rounded-xl grid gap-2 lg:gap-4">
+          <div className="apect-video text-white bg-[url('/variant/image_3.png')] bg-no-repeat bg-cover border-2 py-8 px-4 lg:px-16 lg:py-16 rounded-xl grid gap-2 lg:gap-4">
             <div className="text-2xl font-semibold">9+</div>
 
             <div className="text-sm">
@@ -113,29 +137,50 @@ export default function Home() {
               <a
                 href="https://www.bubblewaffleharrachov.cz"
                 className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center"
+                target="_blank"
               >
                 Waffle
               </a>
 
-              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center">
-                Leopard
-              </div>
+              <a
+                href="https://www.bubblewaffleharrachov.cz"
+                className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center"
+                target="_blank"
+              >
+                Waffle
+              </a>
 
-              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center">
-                Leopard
-              </div>
+              <a
+                href="https://www.bubblewaffleharrachov.cz"
+                className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center"
+                target="_blank"
+              >
+                Waffle
+              </a>
 
-              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center">
-                Leopard
-              </div>
+              <a
+                href="https://www.bubblewaffleharrachov.cz"
+                className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center"
+                target="_blank"
+              >
+                Waffle
+              </a>
 
-              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center">
-                Leopard
-              </div>
+              <a
+                href="https://www.bubblewaffleharrachov.cz"
+                className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center"
+                target="_blank"
+              >
+                Waffle
+              </a>
 
-              <div className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center">
-                Leopard
-              </div>
+              <a
+                href="https://www.bubblewaffleharrachov.cz"
+                className="p-4 lg:py-8 lg:px-20 hover:scale-110 duration-300 bg-white rounded-xl flex justify-center"
+                target="_blank"
+              >
+                Waffle
+              </a>
             </div>
           </div>
         </div>
