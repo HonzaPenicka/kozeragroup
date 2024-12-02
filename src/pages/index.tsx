@@ -19,7 +19,7 @@ export default function Home() {
             Spravujeme Vaše Investice a Rozvoj
           </h1>
 
-          <p className="text-pretty lg:text-justify text-sm md:w-3/5 lg:text-xl">
+          <p className="text-pretty text-sm md:w-3/5 lg:text-xl">
             Naše služby jsou profesionální, kvalitní a spolehlivé. Společně
             rozvíjíme vaše podnikání a zajistíme vaši maximální spokojenost
             našich partnerů.
