@@ -8,7 +8,7 @@ interface Props {
 export const FacebookIcon: FunctionComponent<Props> = ({ width, height }) => {
   return (
     <svg
-      fill="#000000"
+      fill="#FFFFFF"
       width={width}
       height={height}
       viewBox="0 0 24 24"

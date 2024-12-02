@@ -8,7 +8,7 @@ interface Props {
 export const XIcon: FunctionComponent<Props> = ({ width, height }) => {
   return (
     <svg
-      fill="#000000"
+      fill="#FFFFFF"
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMidYMid"
       width={width}
