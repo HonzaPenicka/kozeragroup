@@ -14,7 +14,7 @@ export default function Home() {
       </header>
 
       <main className="flex flex-col gap-2 md:gap-8 lg:gap-16">
-        <section className="aspect-auto md:aspect-auto text-white bg-[url('/hero/image_mobile.png')] md:bg-[url('/hero/image.png')] bg-no-repeat bg-cover border-2 items-center grid p-4 md:p-8 lg:p-16 gap-8 xl:py-24 lg:gap-16 xl:gap-24 py-16 rounded-xl justify-between">
+        <section className="aspect-auto md:aspect-auto text-white bg-[url('/hero/image_mobile.png')] md:bg-[url('/hero/image.png')] bg-no-repeat bg-cover border-2 items-center grid p-4 md:p-8 lg:p-16 gap-8 xl:py-24 lg:gap-16 xl:gap-20 py-16 rounded-xl justify-between">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold">
             Spravujeme Vaše Investice a Rozvoj
           </h1>
