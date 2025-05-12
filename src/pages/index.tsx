@@ -210,7 +210,7 @@ export default function Home() {
 
           <h3 className="font-semibold">E-mailová adresa</h3>
 
-          <a href="mailto:bubblewaffleharrachov@gmail.com" className="text-gray-500">
+          <a href="mailto:bubblewaffleharrachov@gmail.com" className="text-gray-500 truncate">
             bubblewaffleharrachov@gmail.com
           </a>
         </button>
